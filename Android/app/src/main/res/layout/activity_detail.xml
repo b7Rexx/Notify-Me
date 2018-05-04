@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.brexx.notifyme.Detail">
+
+    <TextView
+        android:id="@+id/subject_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        android:textColor="@color/subject"/>
+
+    <TextView
+        android:layout_below="@+id/subject_detail"
+        android:id="@+id/date_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="10dp"
+        android:textColor="@color/date"/>
+
+    <TextView
+        android:layout_below="@+id/date_detail"
+        android:id="@+id/body_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="Published by:"
+        android:textSize="8sp"
+        android:layout_below="@+id/body_detail"
+        android:id="@+id/sentby"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/subject"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sentby"
+        android:textSize="15sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/sender_detail"
+        android:textColor="@color/subject"/>
+
+</RelativeLayout>

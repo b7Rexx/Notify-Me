@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about_us"
+        android:alphabeticShortcut="a"
+        android:numericShortcut="1"
+        android:title="Aboutus"/>
+
+    <item
+        android:id="@+id/notes"
+        android:alphabeticShortcut="a"
+        android:numericShortcut="1"
+        android:title="Notes"/>
+
+    <item
+        android:id="@+id/logout"
+        android:alphabeticShortcut="a"
+        android:numericShortcut="1"
+        android:title="Logout"/>
+
+    <item
+        android:id="@+id/exit"
+        android:alphabeticShortcut="a"
+        android:numericShortcut="1"
+        android:title="Exit"/>
+
+</menu>

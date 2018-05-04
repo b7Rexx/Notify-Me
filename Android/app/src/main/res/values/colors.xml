@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#11999E</color>
+    <color name="colorPrimaryDark">#3C3C3C</color>
+    <color name="blue">#F4F4F4</color>
+    <color name="colorAccent">#6DECB9</color>
+    <color name="subject">#228896</color>
+    <color name="date">#A9C52F</color>
+    <color name="body">#283739</color>
+    <color name="list_background">#F5F5F5</color>
+    <color name="text">#00AAA0</color>
+    <color name="button">#0bb01b</color>
+    <color name="boldtext">#574E6D</color>
+</resources>

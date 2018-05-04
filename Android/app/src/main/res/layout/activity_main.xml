@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    android:background="@color/blue"
+    tools:context="com.example.brexx.notifyme.MainActivity">
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:ems="10"
+        android:textSize="20sp"
+        android:id="@+id/et_orgpass"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/et_orgname"/>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Organization"
+        android:ems="10"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/et_orgname"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/et_orgpass"
+        android:layout_alignStart="@+id/et_orgpass"/>
+
+    <Button
+        android:text="Login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/orglogin"
+        android:layout_below="@+id/et_orgpass"
+        android:layout_alignRight="@+id/et_orgpass"
+        android:layout_alignEnd="@+id/et_orgpass"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notifyme_logo"
+        android:paddingLeft="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/et_orgname"
+        android:layout_alignStart="@+id/et_orgname" />
+
+
+</RelativeLayout>
